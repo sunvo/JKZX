@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "RootTabBarViewController.h"
+#import "RootNavigationViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    RootTabBarViewController *tabBarVC = [[RootTabBarViewController alloc] init];
+    RootNavigationViewController *navigationVC = [[RootNavigationViewController alloc] initWithRootViewController:tabBarVC];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.rootViewController = navigationVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

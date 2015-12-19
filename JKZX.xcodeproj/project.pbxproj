@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0A1C171C255F3C0081A6A6 /* LIstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A1C161C255F3C0081A6A6 /* LIstModel.m */; };
+		BC0A1C1A1C2562350081A6A6 /* ListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A1C191C2562350081A6A6 /* ListItemModel.m */; };
+		BC0A1C1D1C25693A0081A6A6 /* ListPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A1C1C1C25693A0081A6A6 /* ListPageViewController.m */; };
 		BCFA03F01C23FB1C007D8171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA03EF1C23FB1C007D8171 /* main.m */; };
 		BCFA03F31C23FB1C007D8171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA03F21C23FB1C007D8171 /* AppDelegate.m */; };
 		BCFA03F51C23FB1C007D8171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFA03F41C23FB1C007D8171 /* Assets.xcassets */; };
 		BCFA03F81C23FB1C007D8171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFA03F61C23FB1C007D8171 /* LaunchScreen.storyboard */; };
 		BCFA04031C23FB1C007D8171 /* JKZXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04021C23FB1C007D8171 /* JKZXTests.m */; };
 		BCFA040E1C23FB1C007D8171 /* JKZXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA040D1C23FB1C007D8171 /* JKZXUITests.m */; };
+		BCFA041D1C23FBCA007D8171 /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA041C1C23FBCA007D8171 /* RootNavigationViewController.m */; };
+		BCFA04201C23FC19007D8171 /* RootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA041F1C23FC19007D8171 /* RootTabBarViewController.m */; };
+		BCFA04251C23FCCC007D8171 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04241C23FCCC007D8171 /* MoreViewController.m */; };
+		BCFA04281C23FCD8007D8171 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04271C23FCD8007D8171 /* HomePageViewController.m */; };
+		BCFA04301C241270007D8171 /* InformationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA042F1C241270007D8171 /* InformationDataController.m */; };
+		BCFA04331C242F9D007D8171 /* ClassificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04321C242F9D007D8171 /* ClassificationModel.m */; };
+		BCFA04361C2431DD007D8171 /* ItemsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA04351C2431DD007D8171 /* ItemsModel.m */; };
+		BCFA043E1C243D35007D8171 /* HomepagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFA043D1C243D35007D8171 /* HomepagesTableViewCell.m */; };
+		F330D2F7FD755285F1C0444B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2205FB7B71264933350ED90B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2205FB7B71264933350ED90B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D0C62E795A535EFD99D58B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BC0A1C151C255F3C0081A6A6 /* LIstModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIstModel.h; sourceTree = "<group>"; };
+		BC0A1C161C255F3C0081A6A6 /* LIstModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIstModel.m; sourceTree = "<group>"; };
+		BC0A1C181C2562350081A6A6 /* ListItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemModel.h; sourceTree = "<group>"; };
+		BC0A1C191C2562350081A6A6 /* ListItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemModel.m; sourceTree = "<group>"; };
+		BC0A1C1B1C25693A0081A6A6 /* ListPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPageViewController.h; sourceTree = "<group>"; };
+		BC0A1C1C1C25693A0081A6A6 /* ListPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPageViewController.m; sourceTree = "<group>"; };
 		BCFA03EB1C23FB1C007D8171 /* JKZX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKZX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFA03EF1C23FB1C007D8171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCFA03F11C23FB1C007D8171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +66,24 @@
 		BCFA04091C23FB1C007D8171 /* JKZXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKZXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFA040D1C23FB1C007D8171 /* JKZXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKZXUITests.m; sourceTree = "<group>"; };
 		BCFA040F1C23FB1C007D8171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFA041B1C23FBCA007D8171 /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationViewController.h; sourceTree = "<group>"; };
+		BCFA041C1C23FBCA007D8171 /* RootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationViewController.m; sourceTree = "<group>"; };
+		BCFA041E1C23FC19007D8171 /* RootTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarViewController.h; sourceTree = "<group>"; };
+		BCFA041F1C23FC19007D8171 /* RootTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarViewController.m; sourceTree = "<group>"; };
+		BCFA04231C23FCCC007D8171 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		BCFA04241C23FCCC007D8171 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		BCFA04261C23FCD8007D8171 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		BCFA04271C23FCD8007D8171 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		BCFA042D1C24089B007D8171 /* NetworkCallbackDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCallbackDelegate.h; sourceTree = "<group>"; };
+		BCFA042E1C241270007D8171 /* InformationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDataController.h; sourceTree = "<group>"; };
+		BCFA042F1C241270007D8171 /* InformationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDataController.m; sourceTree = "<group>"; };
+		BCFA04311C242F9D007D8171 /* ClassificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassificationModel.h; sourceTree = "<group>"; };
+		BCFA04321C242F9D007D8171 /* ClassificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassificationModel.m; sourceTree = "<group>"; };
+		BCFA04341C2431DD007D8171 /* ItemsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsModel.h; sourceTree = "<group>"; };
+		BCFA04351C2431DD007D8171 /* ItemsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsModel.m; sourceTree = "<group>"; };
+		BCFA043C1C243D35007D8171 /* HomepagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepagesTableViewCell.h; sourceTree = "<group>"; };
+		BCFA043D1C243D35007D8171 /* HomepagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepagesTableViewCell.m; sourceTree = "<group>"; };
+		CA04A03FE25090E98B6A5C67 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F330D2F7FD755285F1C0444B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +112,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4101FB45A521ADFE0EA9113F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2205FB7B71264933350ED90B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC0A1C111C255ED60081A6A6 /* ListPage */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A1C141C255EF80081A6A6 /* viewControl */,
+				BC0A1C131C255EF20081A6A6 /* view */,
+				BC0A1C121C255EE60081A6A6 /* modle */,
+			);
+			name = ListPage;
+			sourceTree = "<group>";
+		};
+		BC0A1C121C255EE60081A6A6 /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A1C151C255F3C0081A6A6 /* LIstModel.h */,
+				BC0A1C161C255F3C0081A6A6 /* LIstModel.m */,
+				BC0A1C181C2562350081A6A6 /* ListItemModel.h */,
+				BC0A1C191C2562350081A6A6 /* ListItemModel.m */,
+			);
+			name = modle;
+			sourceTree = "<group>";
+		};
+		BC0A1C131C255EF20081A6A6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BC0A1C141C255EF80081A6A6 /* viewControl */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A1C1B1C25693A0081A6A6 /* ListPageViewController.h */,
+				BC0A1C1C1C25693A0081A6A6 /* ListPageViewController.m */,
+			);
+			name = viewControl;
+			sourceTree = "<group>";
+		};
 		BCFA03E21C23FB1C007D8171 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +164,8 @@
 				BCFA04011C23FB1C007D8171 /* JKZXTests */,
 				BCFA040C1C23FB1C007D8171 /* JKZXUITests */,
 				BCFA03EC1C23FB1C007D8171 /* Products */,
+				C2ECD94F0B93C3F666AD3C92 /* Pods */,
+				4101FB45A521ADFE0EA9113F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,12 +182,19 @@
 		BCFA03ED1C23FB1C007D8171 /* JKZX */ = {
 			isa = PBXGroup;
 			children = (
+				BCFA042C1C240860007D8171 /* dataControl */,
+				BCFA04221C23FC9B007D8171 /* MorePage */,
+				BCFA04211C23FC84007D8171 /* HomePage */,
 				BCFA03F11C23FB1C007D8171 /* AppDelegate.h */,
 				BCFA03F21C23FB1C007D8171 /* AppDelegate.m */,
 				BCFA03F41C23FB1C007D8171 /* Assets.xcassets */,
 				BCFA03F61C23FB1C007D8171 /* LaunchScreen.storyboard */,
 				BCFA03F91C23FB1C007D8171 /* Info.plist */,
 				BCFA03EE1C23FB1C007D8171 /* Supporting Files */,
+				BCFA041B1C23FBCA007D8171 /* RootNavigationViewController.h */,
+				BCFA041C1C23FBCA007D8171 /* RootNavigationViewController.m */,
+				BCFA041E1C23FC19007D8171 /* RootTabBarViewController.h */,
+				BCFA041F1C23FC19007D8171 /* RootTabBarViewController.m */,
 			);
 			path = JKZX;
 			sourceTree = "<group>";
@@ -132,6 +225,74 @@
 			path = JKZXUITests;
 			sourceTree = "<group>";
 		};
+		BCFA04211C23FC84007D8171 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A1C111C255ED60081A6A6 /* ListPage */,
+				BCFA042B1C240837007D8171 /* model */,
+				BCFA042A1C240832007D8171 /* view */,
+				BCFA04291C240825007D8171 /* viewControl */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		BCFA04221C23FC9B007D8171 /* MorePage */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA04231C23FCCC007D8171 /* MoreViewController.h */,
+				BCFA04241C23FCCC007D8171 /* MoreViewController.m */,
+			);
+			name = MorePage;
+			sourceTree = "<group>";
+		};
+		BCFA04291C240825007D8171 /* viewControl */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA04261C23FCD8007D8171 /* HomePageViewController.h */,
+				BCFA04271C23FCD8007D8171 /* HomePageViewController.m */,
+			);
+			name = viewControl;
+			sourceTree = "<group>";
+		};
+		BCFA042A1C240832007D8171 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA043C1C243D35007D8171 /* HomepagesTableViewCell.h */,
+				BCFA043D1C243D35007D8171 /* HomepagesTableViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BCFA042B1C240837007D8171 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA04311C242F9D007D8171 /* ClassificationModel.h */,
+				BCFA04321C242F9D007D8171 /* ClassificationModel.m */,
+				BCFA04341C2431DD007D8171 /* ItemsModel.h */,
+				BCFA04351C2431DD007D8171 /* ItemsModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BCFA042C1C240860007D8171 /* dataControl */ = {
+			isa = PBXGroup;
+			children = (
+				BCFA042D1C24089B007D8171 /* NetworkCallbackDelegate.h */,
+				BCFA042E1C241270007D8171 /* InformationDataController.h */,
+				BCFA042F1C241270007D8171 /* InformationDataController.m */,
+			);
+			name = dataControl;
+			sourceTree = "<group>";
+		};
+		C2ECD94F0B93C3F666AD3C92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA04A03FE25090E98B6A5C67 /* Pods.debug.xcconfig */,
+				50D0C62E795A535EFD99D58B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCFA04121C23FB1C007D8171 /* Build configuration list for PBXNativeTarget "JKZX" */;
 			buildPhases = (
+				32AE7AA7C2CC64D64DF3111A /* Check Pods Manifest.lock */,
 				BCFA03E71C23FB1C007D8171 /* Sources */,
 				BCFA03E81C23FB1C007D8171 /* Frameworks */,
 				BCFA03E91C23FB1C007D8171 /* Resources */,
+				792D7368B6F7820327422CD1 /* Embed Pods Frameworks */,
+				2F35734A86930149A53E88F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,13 +420,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F35734A86930149A53E88F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32AE7AA7C2CC64D64DF3111A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		792D7368B6F7820327422CD1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCFA03E71C23FB1C007D8171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFA04201C23FC19007D8171 /* RootTabBarViewController.m in Sources */,
+				BCFA041D1C23FBCA007D8171 /* RootNavigationViewController.m in Sources */,
+				BC0A1C1A1C2562350081A6A6 /* ListItemModel.m in Sources */,
+				BCFA04301C241270007D8171 /* InformationDataController.m in Sources */,
+				BCFA04281C23FCD8007D8171 /* HomePageViewController.m in Sources */,
+				BC0A1C171C255F3C0081A6A6 /* LIstModel.m in Sources */,
+				BC0A1C1D1C25693A0081A6A6 /* ListPageViewController.m in Sources */,
 				BCFA03F31C23FB1C007D8171 /* AppDelegate.m in Sources */,
+				BCFA04361C2431DD007D8171 /* ItemsModel.m in Sources */,
+				BCFA04331C242F9D007D8171 /* ClassificationModel.m in Sources */,
 				BCFA03F01C23FB1C007D8171 /* main.m in Sources */,
+				BCFA04251C23FCCC007D8171 /* MoreViewController.m in Sources */,
+				BCFA043E1C243D35007D8171 /* HomepagesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +614,7 @@
 		};
 		BCFA04131C23FB1C007D8171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA04A03FE25090E98B6A5C67 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKZX/Info.plist;
@@ -402,6 +626,7 @@
 		};
 		BCFA04141C23FB1C007D8171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D0C62E795A535EFD99D58B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JKZX/Info.plist;
@@ -478,6 +703,7 @@
 				BCFA04141C23FB1C007D8171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCFA04151C23FB1C007D8171 /* Build configuration list for PBXNativeTarget "JKZXTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +712,7 @@
 				BCFA04171C23FB1C007D8171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCFA04181C23FB1C007D8171 /* Build configuration list for PBXNativeTarget "JKZXUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +721,7 @@
 				BCFA041A1C23FB1C007D8171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
